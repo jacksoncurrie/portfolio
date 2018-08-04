@@ -1,2 +1,2 @@
-# portfolio
-Portfolio of work
+# Jackson Currie's Portfolio
+Portfolio of projects
