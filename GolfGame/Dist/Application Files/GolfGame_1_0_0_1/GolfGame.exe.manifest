@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="GolfGame.exe" version="1.0.0.1" publicKeyToken="61defcdd00e59224" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="GolfGame" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="GolfGame.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GolfGame.exe" size="7624">
+      <assemblyIdentity name="GolfGame" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>X7GUJ9WxsMMb4SUu+XtSLNQryezjA+Ax7UKKML+veUY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="GolfGame.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wDmrlTz6aNIp269ZO0+f+NuBph+l7PSF+/aeuhX4N/I=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=BCSNETNZ\30005345" issuerKeyHash="36dee8591c5cf714316b034cbda1e04f9eb7135e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>er654fwrIa9brgnsnRFZgISX20++9Hd8MVQyq0fnpm0=</DigestValue></Reference></SignedInfo><SignatureValue>kM5wSAAxPHz8Y3VETz0n4N2leEaYDj5zh39DPqU6uiHBxKPVCDCZj3w1WcogdG2dd+x1z/HLjvHHcfjXKBa6BFXF5cx5WVTVDHqphbi0dVc7RK6sjUJP0sE7s3nmle+qiA7QC6dma/+TBdIbJ/ne+jWGwtTr2sxQwSAlMQUs6qw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>mD3yte+Zn2AX91B3acs7+rIkPhAYUnaqA6AYDKk5CtuJ4F4Jk8w401O0LRH85EfRc2JaiBYE/I5AVCIWudZJ4aMWIBepqzONPjL2iQgPAo1wzvQz7fvzaNre4Y6OKVTDuGRnJ6JsWl51uXoYORSPqB/cpg0vKs5GSNYEaSodUiE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6da6e747ab3254317c77f4be4fdb97848059119dec09ae5baf212bfce1b9be7a" Description="" Url=""><as:assemblyIdentity name="GolfGame.exe" version="1.0.0.1" publicKeyToken="61defcdd00e59224" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BCSNETNZ\30005345</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>7RL2JvCdOwUSl/T+iWy0miuApNSxX4z40pit5EL3H2k=</DigestValue></Reference></SignedInfo><SignatureValue>EQH30QSKMQrGwiv8hKWo5aNQgOOJSs8zv6++ZVZxeJ2VO9QAtPWfAXa8ODhTZ8RLD3N6BMdm6aDukIPAHvRXP8uobgePu/UZU2k+B1sc1CPpCAYoGmQf+hjhkBPxrVTkelV34dPwrBW5fXMET3NRRyEPBoJ3kcfsHnceQS3dRc8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>mD3yte+Zn2AX91B3acs7+rIkPhAYUnaqA6AYDKk5CtuJ4F4Jk8w401O0LRH85EfRc2JaiBYE/I5AVCIWudZJ4aMWIBepqzONPjL2iQgPAo1wzvQz7fvzaNre4Y6OKVTDuGRnJ6JsWl51uXoYORSPqB/cpg0vKs5GSNYEaSodUiE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQdXJ9zU6DxL9FFrxIUkQKMjANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIAQgBDAFMATgBFAFQATgBaAFwAMwAwADAAMAA1ADMANAA1MB4XDTE4MDgwOTIzMTgwNloXDTE5MDgxMDA1MTgwNlowLTErMCkGA1UEAx4iAEIAQwBTAE4ARQBUAE4AWgBcADMAMAAwADAANQAzADQANTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAmD3yte+Zn2AX91B3acs7+rIkPhAYUnaqA6AYDKk5CtuJ4F4Jk8w401O0LRH85EfRc2JaiBYE/I5AVCIWudZJ4aMWIBepqzONPjL2iQgPAo1wzvQz7fvzaNre4Y6OKVTDuGRnJ6JsWl51uXoYORSPqB/cpg0vKs5GSNYEaSodUiECAwEAATANBgkqhkiG9w0BAQsFAAOBgQBT78MrCUq7YVoh9bNX96oqgFgeEjetrHd/5PNUUeh46lMmjvCk+IGXZ3iONXDAudN0A2IFrrUbQmJu7Dk3KnxiRvX8AKCqlsxCfVB/0pLtKyQt9DPKmZddIqC3A33ufUKMc2Hdts0yoymTnI5FULSOYPK3s/2RRLUIwERt6Sbw9A==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

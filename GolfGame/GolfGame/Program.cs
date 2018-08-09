@@ -140,7 +140,7 @@ namespace GolfGame
                         // Wrong input
                         default:
                             Console.Clear();
-                            Console.WriteLine("\n\nThat is not an option.\n");
+                            Console.WriteLine("\nThat is not an option.");
                             break;
                     }
                 }
