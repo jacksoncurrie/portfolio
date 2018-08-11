@@ -1,0 +1,316 @@
+/*
+ * main.css
+ *
+ * All styles for all of the website
+ */
+
+/* Fonts used: Montserrat and Source Sans Pro */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700,900|Source+Sans+Pro:600');
+
+/* Input Errors */
+.parsley-errors-list
+{ 
+    position: absolute;
+    margin-top: -20px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #FF4F1A;
+    padding: 0 5% 0 5%;
+    width: 90%;
+    list-style: none;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+}
+main
+{
+    padding-bottom: 50px;
+}
+/* Content of home page */
+#study
+{
+    position: absolute;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0 40px 40px 40px;
+    text-align: center;
+    font-size: 1.5em;
+    color: #222;
+}
+#study-img
+{
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 40px auto;
+}
+#logo
+{
+    display: block;
+    margin: 40px auto;
+}
+/* All headings */
+.page-heading
+{
+    margin: 0 0 40px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3em;
+    text-align: center;
+    color: #222;
+    padding: 0 20px;
+}
+.subheading
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    color: #222;
+}
+.checkbox
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.1em;
+    color: #222;
+}
+/* Corner Buttons */
+.logout
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-family: 'Source Sans Pro', serif;
+    text-decoration: none;
+    color: #AAA;
+    transition: 500ms;
+}
+.admin
+{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    font-family: 'Source Sans Pro', serif;
+    text-decoration: none;
+    color: #AAA;
+    transition: 500ms;
+}
+.image
+{
+    display: block;
+    margin: 30px auto;
+    width: 200px;
+    height: auto;
+}
+.register
+{
+    text-align: center;
+    display: block;
+    margin: 20px 0;
+    font-family: 'Source Sans Pro', serif;
+    text-decoration: none;
+    color: #AAA;
+    transition: 500ms;
+}
+/* Hover style for all buttons/links with transition */
+.register:hover, .logout:hover, .admin:hover
+{
+    opacity: 0.7;
+}
+/* Tutor info */
+.desc, .contact
+{
+    text-align: center;
+    font-family: 'Source Sans Pro', serif;
+    margin: 20px 30px;
+}
+/* Home links */
+.nav
+{
+    text-align: center;
+    padding: 40px 0;
+    display: block;
+    margin: auto;
+    font-family: 'Source Sans Pro', serif;
+    text-decoration: none;
+}
+.links
+{
+    width: 200px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    transition: 500ms;
+}
+.links:hover
+{
+    width: 220px;
+}
+#students
+{
+    color: #FF4F1A;
+    border-left: 2px solid #FF4F1A;
+    position: relative;
+    right: 40px;
+}
+#tutors
+{
+    color: #00B282;
+    border-right: 2px solid #00B282;
+    position: relative;
+    left: 40px;
+}
+/* List of tutors and subjects */
+.list
+{
+    width: 250px;
+    color: #444;
+    background-color: rgba(0, 178, 130, 0.1);
+    font-size: 1.3em;
+    border: 1px solid #CCC;
+    margin-bottom: 30px;
+    opacity: 0.7;
+    transition: 500ms;
+}
+.list:hover
+{
+    background-color: rgba(0, 178, 130, 0.3);
+}
+/* Corner buttons*/
+.back
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-family: 'Source Sans Pro', serif;
+    text-decoration: none;
+    color: #AAA;
+    transition: 500ms;
+}
+.admin-back
+{
+    top: 40px;
+}
+/* Tutor info */
+p#desc, p#contact
+{
+    text-align: center;
+    padding: 0 20px;
+}
+/* Tutor registration and inputs */
+form
+{
+    text-align: center;
+}
+.text-field
+{
+    text-align: center;
+    width: 250px;
+    padding: 10px 0;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #00B282;
+}
+.personal-info
+{
+    margin: 20px auto;
+}
+.checkbox, .check
+{
+    cursor: pointer;
+}
+.subject-level
+{
+    margin: 10px 0 50px 0;
+}
+.login
+{
+    margin: 20px 0;
+}
+.subject
+{
+    text-align: center;
+}
+.button
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
+    color: #777;
+    padding: 10px;
+    cursor: pointer;
+    border: 3px solid #777;
+    background: none;
+    transition: 500ms;
+}
+.button:hover, .remove:hover, .links:hover
+{
+    opacity: 0.7;
+}
+.remove
+{
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
+    color: #FF4F1A;
+    transition: 500ms;
+}
+.tutor-name
+{
+    margin: 80px 0 10px 0;
+}
+.subject-heading
+{
+    font-size: 2.5em;
+}
+/* Styles for tablet sized screns */
+@media screen and (min-width: 480px) {
+    #students
+    {
+        right: 100px;
+    }
+    #tutors
+    {
+        left: 100px;
+    }
+    .list
+    {
+        width: 300px;
+    }
+}
+/* Styles for desktop sized screens */
+@media screen and (min-width: 768px) {
+    #study
+    {
+        margin: 150px 200px 60px 200px;;
+    }
+    /* Changing logo to top left */
+    #logo
+    {
+        position: absolute;
+        top: 20px;
+        left: 40px;
+        margin: 0;
+    }
+    .page-heading
+    {
+        margin: 100px 0 100px 0;
+    }
+    #students
+    {
+        float: left;
+        right: 0;
+        margin-left: 20%;
+    }
+    #tutors
+    {
+        float: right;
+        left: 0;
+        margin-right: 20%;
+    }
+    .list
+    {
+        width: 350px;
+    }
+    .desc
+    {
+        margin: 20px 100px;
+    }
+}

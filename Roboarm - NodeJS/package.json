@@ -1,0 +1,30 @@
+{
+  "name": "roboarm",
+  "version": "1.0.0",
+  "description": "Web server to control robotic arm",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacksoncurrie/roboarm.git"
+  },
+  "keywords": [
+    "robot",
+    "roboarm",
+    "rapsberry",
+    "pi"
+  ],
+  "author": "Jackson Currie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacksoncurrie/roboarm/issues"
+  },
+  "homepage": "https://github.com/jacksoncurrie/roboarm#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  }
+}
