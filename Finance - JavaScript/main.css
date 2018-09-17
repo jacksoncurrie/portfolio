@@ -1,0 +1,115 @@
+/*
+ * Author      : Jackson Currie
+ * Date        : 2018-09-04
+ * Description : Stylesheet for controlling shares
+ */
+
+* {
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+
+form p {
+    display: inline-block;
+    margin: 0 20px;
+    font-weight: 600;
+    font-size: 10pt;
+}
+
+/* Buttons */
+
+button {
+    margin: 20px;
+    padding: 5px 10px;
+    background-color: #09F;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 11pt;
+    border: none;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #0BF;
+    cursor: pointer;
+}
+
+/* Inputs */
+
+input:focus {
+    outline: none;
+}
+
+input {
+    margin-top: 10px;
+    border: none;
+    border-bottom: 2px solid #09F;
+}
+
+input:hover, input:focus {
+    border-bottom: 2px solid #0CF; 
+}
+
+a {
+    color: #09F;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0CF;
+    text-decoration: underline;
+}
+
+/* Table */
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td, th {
+    border: 1px solid #FFF;
+    padding: 15px;
+}
+
+tr:nth-child(odd) td {
+    background-color: #EEE;
+}
+
+tr:nth-child(even) td {
+    background-color: #DDD;
+}
+
+th {
+    background-color: #06F;
+    color: white;
+}
+
+/* graph */
+
+div {
+    max-width: 700px;
+    margin: auto;
+}
+
+@media screen and (max-width: 800px) {
+    form p {
+        margin-top: 30px;
+        display: block;
+    }
+
+    .hidden {
+        display:none;
+    }
+
+    td, th {
+        padding: 5px;
+        font-size: 12px;
+    }
+    
+    table {
+        max-width: 100vw;
+    }
+}
