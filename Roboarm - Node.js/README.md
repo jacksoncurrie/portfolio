@@ -5,4 +5,4 @@ Website on a Raspberry Pi to control a robot arm.
 * Node.js and NPM must be installed
 * Run `npm i`
 * Run `npm start`
-* Visit `http://[Local IP Address]:8080`
+* Visit `http://localhost:8080` on the device
