@@ -1,2 +1,4 @@
 # Golf Game
-C# console game using maths
+C# console game.
+
+Run the GolfGame.exe file to play.
